@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="PREF_CHECK_SEARCH"
+        android:defaultValue="true"
+        android:title="@string/STR_SHOW_SEARCH"
+        android:summary="@string/STR_SHOW_SEARCH_DETAIL"
+        />
+    <ListPreference
+        android:key="PREF_LIST_RADIUS"
+        android:title="@string/STR_RADIUS_TITLE"
+        android:entries="@array/ARRAY_RADIUS_TITLE"
+        android:entryValues="@array/ARRAY_RADIUS_VALUE"
+        android:summary="%s"/>
+</PreferenceScreen>

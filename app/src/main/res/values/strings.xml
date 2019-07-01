@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ListWork_YuZhao</string>
+    <string name="action_settings">Settings</string>
+    <string name="STR_RADIUS_1">1 mile</string>
+    <string name="STR_RADIUS_5">5 miles</string>
+    <string name="STR_RADIUS_10">10 miles</string>
+    <string name="STR_RADIUS_15">15 miles</string>
+    <string name="STR_RADIUS_20">20 miles</string>
+    <string name="STR_RADIUS_TITLE">Set search radius</string>
+    <string name="STR_SHOW_SEARCH">Show search bar</string>
+    <string name="STR_SHOW_SEARCH_DETAIL">Check to show search bar</string>
+    <string-array name="ARRAY_RADIUS_TITLE">
+        <item>@string/STR_RADIUS_1</item>
+        <item>@string/STR_RADIUS_5</item>
+        <item>@string/STR_RADIUS_10</item>
+        <item>@string/STR_RADIUS_15</item>
+        <item>@string/STR_RADIUS_20</item>
+    </string-array>
+    <string-array name="ARRAY_RADIUS_VALUE">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+</resources>
